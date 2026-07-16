@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-16T18:26:42 IST" name="Default suite" finished-at="2026-07-16T18:27:49 IST" duration-ms="66596">
+    <groups>
+    </groups>
+    <test started-at="2026-07-16T18:26:42 IST" name="Default test" finished-at="2026-07-16T18:27:49 IST" duration-ms="66596">
+      <class name="com.casestudy.example.Case_study_task_74">
+        <test-method signature="popup()[pri:0, instance:com.casestudy.example.Case_study_task_74@131774fe]" started-at="2026-07-16T18:26:42 IST" name="popup" finished-at="2026-07-16T18:27:49 IST" duration-ms="66523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+      </class> <!-- com.casestudy.example.Case_study_task_74 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
