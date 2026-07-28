@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="688" it="0" lt="684" ct="128" ts="1784797075562" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-1" dt="text" by="7728" sby="125" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="338" it="0" lt="338" ct="0" ts="1784797076259" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-1" dt="text" by="7723" sby="125" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="591" it="0" lt="583" ct="9" ts="1784797076124" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-2" dt="text" by="7713" sby="125" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="388" it="0" lt="387" ct="7" ts="1784797076722" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-3" dt="text" by="7715" sby="125" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="392" it="0" lt="391" ct="0" ts="1784797076718" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-2" dt="text" by="7717" sby="125" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="301" it="0" lt="292" ct="0" ts="1784797077112" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-3" dt="text" by="7719" sby="125" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="400" it="0" lt="400" ct="9" ts="1784797077325" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-4" dt="text" by="7717" sby="125" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="294" it="0" lt="285" ct="0" ts="1784797077728" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-4" dt="text" by="7719" sby="125" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="321" it="0" lt="307" ct="9" ts="1784797077918" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-5" dt="text" by="7721" sby="125" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="396" it="0" lt="395" ct="0" ts="1784797078250" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-5" dt="text" by="7715" sby="125" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+
+<httpSample t="3827" it="0" lt="3820" ct="3217" ts="1784798260534" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-1" dt="text" by="7721" sby="125" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="2012" it="0" lt="2004" ct="1401" ts="1784798262350" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-4" dt="text" by="7719" sby="125" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="2606" it="0" lt="2598" ct="1995" ts="1784798261756" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-3" dt="text" by="7715" sby="125" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="3255" it="0" lt="3250" ct="2647" ts="1784798261104" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-2" dt="text" by="7723" sby="125" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="1408" it="0" lt="1400" ct="797" ts="1784798262954" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-5" dt="text" by="7717" sby="125" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="315" it="0" lt="273" ct="0" ts="1784798264377" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-5" dt="text" by="7719" sby="125" ng="5" na="5">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="326" it="0" lt="274" ct="0" ts="1784798264377" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-2" dt="text" by="7727" sby="125" ng="4" na="4">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="344" it="0" lt="286" ct="0" ts="1784798264377" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-3" dt="text" by="7723" sby="125" ng="3" na="3">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="355" it="0" lt="297" ct="0" ts="1784798264377" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-1" dt="text" by="7719" sby="125" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+<httpSample t="356" it="0" lt="297" ct="0" ts="1784798264378" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Size Assertion demo 1-4" dt="text" by="7721" sby="125" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://automationexercise.com/login</java.net.URL>
+</httpSample>
+
+</testResults>
