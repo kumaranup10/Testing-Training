@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan">
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>true</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename">/Users/kumaranup10/Documents/college/CoforgeAutomationTesting/CICD Practise Test/Result in JTL file/JenkinsCICD.jtl</stringProp>
+        <stringProp name="TestPlan.comments">Jenkins Genrated JTL File After build is Triggerd </stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <com.example.jmeter.plugin.JtlToXlsListener guiclass="com.example.jmeter.plugin.JtlToXlsGui" testclass="com.example.jmeter.plugin.JtlToXlsListener" testname="JTL XLS Smart Report Generator">
+        <stringProp name="jtlDirectory"></stringProp>
+        <stringProp name="baselineDirectory"></stringProp>
+        <stringProp name="outputDirectory"></stringProp>
+        <stringProp name="environment">PERF</stringProp>
+        <stringProp name="url"></stringProp>
+        <stringProp name="outputFileName">JMeterReports</stringProp>
+        <stringProp name="transactionLabel">PC_</stringProp>
+        <stringProp name="scriptingName"></stringProp>
+        <stringProp name="slaValue">10</stringProp>
+      </com.example.jmeter.plugin.JtlToXlsListener>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

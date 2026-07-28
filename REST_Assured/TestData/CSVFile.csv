@@ -1,0 +1,11 @@
+title,body,userId
+Create Student,Student record created successfully,1
+Create Employee,Employee details added successfully,2
+Create Product,Product information created successfully,3
+Create Customer,Customer account created successfully,4
+Create Order,Order placed successfully,5
+Create Book,Book details stored successfully,6
+Create Vehicle,Vehicle registration completed,7
+Create Department,Department created successfully,8
+Create Project,Project information saved successfully,9
+Create User,User account created successfully,10
