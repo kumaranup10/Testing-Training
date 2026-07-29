@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-28T18:03:53 IST" name="Default suite" finished-at="2026-07-28T18:05:05 IST" duration-ms="72467">
+    <groups>
+    </groups>
+    <test started-at="2026-07-28T18:03:53 IST" name="Default test" finished-at="2026-07-28T18:05:05 IST" duration-ms="72467">
+      <class name="com.FrameworkTest.Example.ConcreteVolumeTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.FrameworkTest.Example.ConcreteVolumeTest@311bf055]" started-at="2026-07-28T18:03:52 IST" name="setupSuite" finished-at="2026-07-28T18:03:53 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.FrameworkTest.Example.ConcreteVolumeTest@311bf055]" started-at="2026-07-28T18:03:53 IST" name="setupBrowser" finished-at="2026-07-28T18:04:32 IST" duration-ms="38949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="calculateConcreteVolume()[pri:0, instance:com.FrameworkTest.Example.ConcreteVolumeTest@311bf055]" started-at="2026-07-28T18:04:32 IST" name="calculateConcreteVolume" finished-at="2026-07-28T18:04:49 IST" duration-ms="17253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateConcreteVolume -->
+        <test-method is-config="true" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:com.FrameworkTest.Example.ConcreteVolumeTest@311bf055]" started-at="2026-07-28T18:04:49 IST" name="captureFailure" finished-at="2026-07-28T18:04:49 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=calculateConcreteVolume status=SUCCESS method=ConcreteVolumeTest.calculateConcreteVolume()[pri:0, instance:com.FrameworkTest.Example.ConcreteVolumeTest@311bf055] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FrameworkTest.Example.ConcreteVolumeTest@311bf055]" started-at="2026-07-28T18:04:49 IST" name="tearDown" finished-at="2026-07-28T18:05:05 IST" duration-ms="15943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FrameworkTest.Example.ConcreteVolumeTest@311bf055]" started-at="2026-07-28T18:05:05 IST" name="tearDown" finished-at="2026-07-28T18:05:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.FrameworkTest.Example.ConcreteVolumeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
