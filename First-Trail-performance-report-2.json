@@ -1,0 +1,266 @@
+{
+  "spec": "0.1.0-alpha.1",
+  "type": "summary",
+  "run_id": "1f187f9e-fed2-4a60-a229-b2e04ad9ad0c",
+  "window": {
+    "start": "2026-07-25T07:24:58.408Z",
+    "end": "2026-07-25T07:29:58.832Z"
+  },
+  "load": {
+    "vus": 20,
+    "duration_ms": 300000
+  },
+  "totals": {
+    "samples": 18273,
+    "passes": 17426,
+    "fails": 847,
+    "error_rate": 0.0464
+  },
+  "throughput": {
+    "rps_avg": 60.82
+  },
+  "latency": {
+    "unit": "ms",
+    "p50": null,
+    "p90": 374,
+    "p95": 459,
+    "p99": 1125,
+    "mean": 314,
+    "max": 7339
+  },
+  "by_op": {
+    "Post Man": {
+      "samples": 840,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 323,
+        "p95": 369,
+        "p99": 853
+      }
+    },
+    "Dummy API": {
+      "samples": 839,
+      "error_rate": 0.0012,
+      "latency": {
+        "p50": null,
+        "p90": 491,
+        "p95": 1158,
+        "p99": 1335
+      }
+    },
+    "REQRES": {
+      "samples": 838,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 282,
+        "p95": 351,
+        "p99": 894
+      }
+    },
+    "JavaScriptPlaceHolder": {
+      "samples": 837,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 243,
+        "p95": 303,
+        "p99": 425
+      }
+    },
+    "JSON Placeholder": {
+      "samples": 837,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 143,
+        "p95": 181,
+        "p99": 256
+      }
+    },
+    "Json Put req 1": {
+      "samples": 835,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 384,
+        "p95": 429,
+        "p99": 552
+      }
+    },
+    "Json Put req 2": {
+      "samples": 833,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 369,
+        "p95": 427,
+        "p99": 493
+      }
+    },
+    "Json Put req 3": {
+      "samples": 832,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 365,
+        "p95": 407,
+        "p99": 496
+      }
+    },
+    "Dummy req 1": {
+      "samples": 832,
+      "error_rate": 0.0036,
+      "latency": {
+        "p50": null,
+        "p90": 364,
+        "p95": 438,
+        "p99": 1181
+      }
+    },
+    "Dummy req 2": {
+      "samples": 832,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 356,
+        "p95": 416,
+        "p99": 726
+      }
+    },
+    "Post Rquest Method on Dummy 1": {
+      "samples": 831,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 366,
+        "p95": 425,
+        "p99": 736
+      }
+    },
+    "Post Rquest Method on Dummy 2": {
+      "samples": 831,
+      "error_rate": 0.0096,
+      "latency": {
+        "p50": null,
+        "p90": 375,
+        "p95": 595,
+        "p99": 1295
+      }
+    },
+    "Post Rquest Method on Dummy 3": {
+      "samples": 831,
+      "error_rate": 0.0012,
+      "latency": {
+        "p50": null,
+        "p90": 369,
+        "p95": 423,
+        "p99": 1138
+      }
+    },
+    "Post Rquest Method on Dummy 4": {
+      "samples": 829,
+      "error_rate": 0.0048,
+      "latency": {
+        "p50": null,
+        "p90": 398,
+        "p95": 590,
+        "p99": 710
+      }
+    },
+    "ReqBin": {
+      "samples": 828,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 732,
+        "p95": 842,
+        "p99": 1816
+      }
+    },
+    "Delete Req 1": {
+      "samples": 827,
+      "error_rate": 0.0024,
+      "latency": {
+        "p50": null,
+        "p90": 441,
+        "p95": 689,
+        "p99": 1255
+      }
+    },
+    "Deleter Req 3": {
+      "samples": 825,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 412,
+        "p95": 649,
+        "p99": 1134
+      }
+    },
+    "Deleter Req 2": {
+      "samples": 825,
+      "error_rate": 0.0024,
+      "latency": {
+        "p50": null,
+        "p90": 361,
+        "p95": 395,
+        "p99": 1128
+      }
+    },
+    "Deleter Req 4": {
+      "samples": 824,
+      "error_rate": 0.0024,
+      "latency": {
+        "p50": null,
+        "p90": 390,
+        "p95": 509,
+        "p99": 914
+      }
+    },
+    "Post request": {
+      "samples": 823,
+      "error_rate": 1,
+      "latency": {
+        "p50": null,
+        "p90": 1,
+        "p95": 1,
+        "p99": 1
+      }
+    },
+    "Deleter Req 5": {
+      "samples": 823,
+      "error_rate": 0.0012,
+      "latency": {
+        "p50": null,
+        "p90": 370,
+        "p95": 469,
+        "p99": 667
+      }
+    },
+    "Post reuest to call varible": {
+      "samples": 821,
+      "error_rate": 0,
+      "latency": {
+        "p50": null,
+        "p90": 316,
+        "p95": 365,
+        "p99": 484
+      }
+    }
+  },
+  "x_postman": {
+    "run_info": {
+      "run_number": 2,
+      "name": null,
+      "collection_name": "First Trail",
+      "environment_name": "Frist Env Variable using Postman",
+      "elapsed_time": 5.01
+    },
+    "load_profile": {
+      "duration": 5,
+      "type": "Fixed"
+    }
+  }
+}

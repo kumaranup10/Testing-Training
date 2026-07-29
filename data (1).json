@@ -1,0 +1,42 @@
+[
+   {
+      "id":0,
+      "title":"API Testing",
+      "price":12345,
+      "description":"Postman API",
+      "image":"https://fakestoreapi.com",
+      "category":"Automation Testing"
+   },
+   {
+      "id":1,
+      "title":"Nike",
+      "price":1230,
+      "description":"Running shoes",
+      "image":"https://fakestoreapi.com",
+      "category":"Shoes"
+   },
+   {
+      "id":0,
+      "title":"Asis",
+      "price":12000,
+      "description":"Running Shoes",
+      "image":"https://fakestoreapi.com",
+      "category":"Shoes"
+   },
+   {
+      "id":0,
+      "title":"Dell Laptop",
+      "price":12340,
+      "description":"Laptop ",
+      "image":"https://fakestoreapi.com",
+      "category":"New Laptop"
+   },
+   {
+      "id":0,
+      "title":"Hp Laptop",
+      "price":120000,
+      "description":"Laptop",
+      "image":"https://fakestoreapi.com",
+      "category":"new Laptop"
+   }
+]

@@ -1,0 +1,669 @@
+{
+  "info": {
+    "_postman_id": "5aa56fdc-91cb-461c-b729-80bf93dc303a",
+    "name": "First Trail",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56868429",
+    "_collection_link": "https://go.postman.co/collection/56868429-5aa56fdc-91cb-461c-b729-80bf93dc303a?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "HTTP Get Request Method",
+      "item": [
+        {
+          "name": "Post Man",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "postman-echo.com/get",
+              "host": [
+                "postman-echo",
+                "com"
+              ],
+              "path": [
+                "get"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Dummy API",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/employees",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "employees"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "REQRES",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "reqres.in/api/users?page=2",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "2"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "JavaScriptPlaceHolder",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "JSON Placeholder",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/comments?postId=1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "comments"
+              ],
+              "query": [
+                {
+                  "key": "postId",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Put Request",
+      "item": [
+        {
+          "name": "Json Put req 1",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"userId\": 1,\n    \"id\": 1,\n    \"title\": \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit\",\n    \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Json Put req 2",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"userId\": 1,\n    \"id\": 1,\n    \"title\": \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit\",\n    \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Json Put req 3",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"userId\": 1,\n    \"id\": 1,\n    \"title\": \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit\",\n    \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Dummy req 1",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\": \"test\",\n    \"salary\": \"123\",\n    \"age\": \"23\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/update/21",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "update",
+                "21"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Dummy req 2",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\": \"test\",\n    \"salary\": \"123\",\n    \"age\": \"23\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/update/21",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "update",
+                "21"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Post Request",
+      "item": [
+        {
+          "name": "Post Rquest Method on Dummy 1",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"userId\": 1,\n    \"id\": 1,\n    \"title\": \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit\",\n    \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Post Rquest Method on Dummy 2",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\":\"API testing\",\n    \"salary\":\"1,30,000\",\n    \"age\":\"23\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/create",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Post Rquest Method on Dummy 3",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\":\"API testing\",\n    \"salary\":\"1,30,000\",\n    \"age\":\"23\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/create",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Post Rquest Method on Dummy 4",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\":\"API testing\",\n    \"salary\":\"1,30,000\",\n    \"age\":\"23\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/create",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "ReqBin",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"employee\": {\n        \"name\": \"Modi\",\n        \"age\": 75,\n        \"city\": \"Antinational\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqbin.com/echo/post/json",
+              "protocol": "https",
+              "host": [
+                "reqbin",
+                "com"
+              ],
+              "path": [
+                "echo",
+                "post",
+                "json"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Delete Req method",
+      "item": [
+        {
+          "name": "Delete Req 1",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/delete/2",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "delete",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Deleter Req 2",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/delete/2",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "delete",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Deleter Req 3",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/delete/2",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "delete",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Deleter Req 4",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/delete/2",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "delete",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Deleter Req 5",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/delete/2",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "delete",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Environment variable",
+      "item": [
+        {
+          "name": "Post request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 0,\n    \"title\": \"title\",\n    \"price\": 1234,\n    \"Decscrption\": \"API tesing\",\n    \"Category\": \"not requrired\",\n    \"image\": \"https://fakestoreapi.com\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://fakestoreapi.com/products",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Post reuest to call varible",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 0,\n    \"title\": \"{{title}}\",\n    \"price\": \"{{Price}}\",\n    \"Decscrption\": \"{{Decscrption}}\",\n    \"Category\": \"{{Category}}\",\n    \"image\": \"https://fakestoreapi.com\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://fakestoreapi.com/products",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
